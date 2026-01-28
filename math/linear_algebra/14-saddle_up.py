@@ -1,9 +1,11 @@
 
-#!/usr/bin/env python3
+# !/usr/bin/env python3
 
-#14-saddle_up.py
-#Performs matrix multiplication on two numpy.ndarrays without loops.
-#Returns a new matrix or None if multiplication is not possible.
+"""
+14-saddle_up.py
+Performs matrix multiplication on two numpy.ndarrays without loops.
+Returns a new matrix or None if multiplication is not possible.
+"""
 import numpy as np
 
 def np_matmul(mat1, mat2):
