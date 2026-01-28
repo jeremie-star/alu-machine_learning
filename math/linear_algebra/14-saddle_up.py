@@ -1,5 +1,4 @@
-
-# !/usr/bin/env python3
+#!/usr/bin/env python3
 
 """
 14-saddle_up.py
@@ -12,11 +11,12 @@ def np_matmul(mat1, mat2):
     """
    Perform matrix multiplication between two numpy arrays.
     Args:
-       mat1 (numpy.ndarray): First matrix.
+      mat1 (numpy.ndarray): First matrix.
       mat2 (numpy.ndarray): Second matrix.
 
    Returns:
-       numpy.ndarray or None: Result of mat1 x mat2 if shapes are compatible, else None.
+      numpy.ndarray or None: Result of mat1 x mat2
+      if shapes are compatible, else None.
     """
     return np.matmul(mat1, mat2)
 
