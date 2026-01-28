@@ -1,6 +1,13 @@
 
 #!/usr/bin/env python3
-def cat_arrays(arr1, arr2):
-    """Concatenates two arrays and returns a new list."""
-    return arr1 + arr2
+'''
+Module that concatenates two arrays
+'''
 
+
+def cat_arrays(arr1, arr2):
+    '''
+    Returns a new array that concatenates two other arrays together
+    '''
+    new_arr = arr1 + arr2
+    return new_arr

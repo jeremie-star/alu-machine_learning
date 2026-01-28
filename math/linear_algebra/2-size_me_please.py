@@ -1,10 +1,17 @@
 
 #!/usr/bin/env python3
-def matrix_shape(matrix):
-    """Returns the shape of a nested list (matrix) as a list of integers."""
-    shape = []
-    while isinstance(matrix, list):
-        shape.append(len(matrix))
-        matrix = matrix[0] if len(matrix) > 0 else []
-    return shape
+'''
+Module that calculates the shape of a matrix
+'''
 
+
+def matrix_shape(matrix):
+    '''
+    calculates the shape of a matrix
+    '''
+    ptr = matrix
+    dimensions = []
+    while isinstance(ptr, list):
+        dimensions.append(len(ptr))
+        ptr = ptr[0]
+    return dimensions
